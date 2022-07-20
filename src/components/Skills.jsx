@@ -4,6 +4,7 @@ import CSSlogo from '../assets/logos/css.png'
 import JSlogo from '../assets/logos/javascript.png'
 import ReactLogo from '../assets/logos/react.png'
 import NodeLogo from '../assets/logos/node.png'
+import ExpressLogo from '../assets/logos/express.jpg'
 
 
 
@@ -37,6 +38,10 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300'>
             <img src={NodeLogo} alt='html logo' className='w-20 mx-auto'/>
             <p className='my-4'>Node</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300'>
+            <img src={ExpressLogo} alt='html logo' className='w-20 mx-auto'/>
+            <p className='my-4'>Express</p>
           </div>
         </div>
       </div>
