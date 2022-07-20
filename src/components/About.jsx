@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate eveniet minima velit consequuntur est repellendus eius dicta quod, debitis magni.
+              I am originally from Santa Fe, but grew up and have lived my entire life in San Nicolas de los Arroyos. I love soccer, reading about anything, and of course programming. I am also studying Psychology, and I have achieved a high level of English on my own. I can also speak a little Portuguese. I also love music, listening to music of all kinds, and playing instruments. I can play guitar, bass, some piano and drums.
               </p>
             </div>
           </div>

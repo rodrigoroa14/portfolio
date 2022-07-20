@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import CV from '../assets/Rodrigo-Roa-CV.pdf'
 import {FaBars, FaTimes, FaLinkedin, FaGithub, } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillFilePersonFill} from 'react-icons/bs'
@@ -63,25 +64,25 @@ const NavBar = () => {
           <ul>
             <li className='flex w-[160px] h-[60px] justify-between w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
               <a className='flex justify-between w-full items-center text-white'
-              href='/'>
+              href='https://www.linkedin.com/in/rodrigo-roa14'>
                 LinkedIn <FaLinkedin size={30}/>
               </a>
             </li>
             <li className='flex w-[160px] h-[60px] justify-between w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
               <a className='flex justify-between w-full items-center text-white'
-              href='/'>
+              href='https://www.github.com/rodrigoroa14'>
                 Github <FaGithub size={30}/>
               </a>
             </li>
             <li className='flex w-[160px] h-[60px] justify-between w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-green-400'>
               <a className='flex justify-between w-full items-center text-white'
-              href='/'>
+              href='mailto:rodrigo.roa14@gmail.com' target='_blank' rel='noreferrer'>
                 Email <HiOutlineMail size={30}/>
               </a>
             </li>
             <li className='flex w-[160px] h-[60px] justify-between w-full text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
               <a className='flex justify-between w-full items-center text-white'
-              href='/'>
+              href={CV} download>
                 Resume <BsFillFilePersonFill size={30}/>
               </a>
             </li>
